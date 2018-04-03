@@ -1,6 +1,6 @@
 # Deep Learning projects using MXNet
 
-All the projects are based on MXNet. Some useful links are in the following.
+All the projects are based on MXNet. Some useful links are as below.
 
 Website of MXNet: https://mxnet.incubator.apache.org/install/index.html
 
