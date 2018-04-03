@@ -14,13 +14,7 @@ Python API for MXNet: https://mxnet.incubator.apache.org/api/python/index.html
 
 - **params**: folder of files that are saved parameters of certain structures of deep neural networks(DNN). Their names are in the form of "Name of the DNN".params.save
 
-- **pics**: folder of files that are pictures or some output files
-
 - **reference**: folder of reference papers
-
-- **GAN_MNIST.py**: use MNIST dataset to train GAN model defined in **GAN.py**
-
-- **GAN.py**: define the model of GAN
 
 - **VAE_MNIST.py**: use MNIST dataset to train VAE model defined in **VAE.py**
 
