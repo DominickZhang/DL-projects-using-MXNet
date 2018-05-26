@@ -8,6 +8,10 @@ Tutorials: http://gluon.mxnet.io/
 
 Python API for MXNet: https://mxnet.incubator.apache.org/api/python/index.html
 
+GluonCV: a Deep Learning Toolkit for Computer Vision: http://gluon-cv.mxnet.io/
+
+GluonNLP: a Deep Learning Toolkit for NLP: https://gluon-nlp.mxnet.io/
+
 ## Related Papers
 
 - [ Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114). Train: VAE_MNIST.py; Test: VAE_TEST.py
