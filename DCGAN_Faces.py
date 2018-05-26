@@ -55,10 +55,6 @@ for path, _, fnames in os.walk(data_path):
 		img_list.append(img_arr)
 train_data = mx.io.NDArrayIter(data = nd.concatenate(img_list), batch_size = batch_size)
 
-'''for i in range(4):
-	plt.subplot(1, 4, i+1)
-	visualize(img_list[i + 10][0])
-plt.show()'''
 
 # Initial Model
 	## loss
@@ -107,8 +103,6 @@ for epoch in range(epochs):
         with autograd.record():
             # train with real image
             output = netD(data).reshape((-1, 1))
-            #print(output.shape)
-            #print(real_label.shape)
             errD_real = loss(output, real_label)
             metric.update([real_label,], [output,])
 
